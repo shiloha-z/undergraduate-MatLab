@@ -1,0 +1,6 @@
+clc
+clear
+t=0:0.001:0.1;
+figure(1);
+x = sin(100*pi*t)+sin(240*pi*t);
+plot(t,x);
